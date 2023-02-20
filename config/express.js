@@ -18,7 +18,7 @@ module.exports = () => {
 
   app.use(cors(corsOptions));
 
-  require('../api/routes/customerWallets')(app);
+  require('../api/routes/avaliacao')(app);
 
   return app;
 };
